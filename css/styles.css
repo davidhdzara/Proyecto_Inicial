@@ -1,0 +1,48 @@
+:root {
+
+    --azulfulam:#007b99;
+    --amarillofunlam: #f39200;
+    --grisfunlam: #848585;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px ;
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size:  3.8rem; 
+    color: var(--azulfulam);
+
+}
+
+.titulo span {
+    color: var(--amarillofunlam);
+}
+
+.contenedor 
+{
+    margin: 0 auto 0 auto ;
+}
+
+
+.nav-bg {
+    background-color: var(--azulfulam);
+}
+
+.barra-navegacion-superior {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra-navegacion-superior a {
+    color: white;
+    text-decoration: none;
+}
